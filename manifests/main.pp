@@ -54,7 +54,7 @@ file { 'vagrant-nginx':
 	ensure => file,
 	replace => true,
 	require => Package['nginx'],
-	source => 'puppet:///templates/nginx/vagrant',
+	source => 'puppet:///modules/nginx/vagrant',
     notify => Service['nginx']
 }
 
@@ -80,7 +80,7 @@ file { 'vagrant-php5-fpm':
 	ensure => file,
 	replace => true,
 	require => Package['php5-fpm'],
-	source => 'puppet:///templates/php5-fpm/vagrant',
+	source => 'puppet:///modules/php5-fpm/vagrant',
     notify => Service['php5-fpm']
 }
 
