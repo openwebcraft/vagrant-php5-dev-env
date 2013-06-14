@@ -44,7 +44,7 @@ Adjust path for shared folder pointing to project's php src in `[PROJECT_DIR]/Va
 
 ## Troubleshooting
 
-### `Error: Could not connect via HTTPS to https://forge.puppetlabs.com` on OS X
+### OS X - Error: Could not connect via HTTPS to https://forge.puppetlabs.com
 
 In case `vagrant up` or `vagrant provision` result in the following error on OS X:
 
